@@ -1,4 +1,4 @@
 FROM quay.io/cygnus/docker-pyenv
 
-RUN ["/bin/bash", "-c", "/python/.pyenv/bin/pyenv install 3.4-dev"]
+RUN ["/bin/bash", "-c", "/python/.pyenv/bin/pyenv install 3.4.0"]
 
